@@ -17,7 +17,7 @@
   	<!-- 로그인 체크 -->
   	<select id="loginCheck" resultType="com.itwillbs.domain.MemberVO">
   		select * from tbl_member
-  		where userid = (#{userid}) and userpw = #{userpw}  	
+  		where userid = #{userid} and userpw = #{userpw}  	
   	</select>
   	
   	<!-- 회원정보 조회 -->
